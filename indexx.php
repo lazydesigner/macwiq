@@ -788,6 +788,15 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            breakpoints: {
+        // when window width is >= 650px
+        300: {
+            slidesPerView: 1
+        },
+        650:{
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
         });
 
         function animateCounter(finalCount) {

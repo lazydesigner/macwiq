@@ -421,13 +421,13 @@ nav{
 .section6 h2{font-size: 2.25vw;font-weight: 500;margin: 1vw 0;}
 /* .section6-line{height: } */
 .section6 p{
-    width: 50vw;
-    font-size: 1.2vw;
+    width: 40vw;
+    font-size: 1vw;
     margin: auto;
     line-height: 2vw;
 }
 .section6-line{
-    width: 9vw;
+    width: 7vw;
     margin: auto;
     height: .3vw;
     background-image: url('../image/faq-heading-border.png');
@@ -1099,6 +1099,7 @@ footer .brands {
         .tool-name {
         width:43%
         }
+        
         .swip {
             padding: 10% 0;
         }
