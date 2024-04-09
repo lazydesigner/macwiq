@@ -980,8 +980,8 @@ footer .brands {
 
 @media (min-width:320px) AND (max-width:650px){
     .service p {
-        font-size: 1.84vw;}
-        .service h2 { font-size: 4.6vw;}
+        font-size: 2.84vw;}
+        .service h2 { font-size: 5.6vw;}
     .services-box-grid {
         grid-template-columns: repeat(1, minmax(30%, 1fr));
         grid-template-rows: repeat(6, minmax(auto, 1fr));
