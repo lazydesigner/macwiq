@@ -1121,6 +1121,7 @@ footer .brands {
         width:4vw
         }
         /* BELOW FOOTER MOBILE CSS */
+        .footer .container h2{font-size:7.5vw}
         .form-container{width:95%;flex-wrap:wrap}
         .form-contact{width:100%;height:auto}
         .form-fields{width:100%;height:auto;margin-bottom:5%}
@@ -1176,15 +1177,16 @@ footer .brands {
                                 font-size: 2.8vw;
                             }
                             .footer-box {
-                                height: 12vw;
+                                height: 28vw;
                                 margin-top: 1vw;
                                 padding: 3%;
                                 font-size: 2.8vw;
+                                flex-wrap:wrap
                             }
                             .footer-box button {
-                                width: 21vw;
-                                font-size: 1.7vw;
-                                height: 6vw;
+                                width: 30vw;
+                                font-size: 2.7vw;
+                                height: 8vw;
                             }
                             .footer-grid {
                                 grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
