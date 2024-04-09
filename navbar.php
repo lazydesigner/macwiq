@@ -1,7 +1,7 @@
 <nav>
         <div class="nav-container">
             <div class="brand">
-                <img src="./image/Macwiq-logo.png" width="100%" height="100%" alt="">
+                <img src="https://trailertransport.org/image/Macwiq-logo.png" width="100%" height="100%" alt="">
             </div>
             <div class="list-of-links">
                 <a href="">Home</a>
