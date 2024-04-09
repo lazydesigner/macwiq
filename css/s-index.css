@@ -979,6 +979,17 @@ footer .brands {
 }
 
 @media (min-width:320px) AND (max-width:650px){
+    .container{width:90%}
+    .header-image {
+        background-size:100% 100%;
+        height:44vw;
+    }
+    .header-txt h1 {font-size: 3.6vw;}
+    .header-txt p {
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+        width: 53%;
+    }
     .service p {
         font-size: 2.84vw;}
         .service h2 { font-size: 5.6vw;}
@@ -1082,6 +1093,27 @@ footer .brands {
         }
         .swiper-slide {height:50vw  }
         .swiper-slide-active{height:60vw}
+
+        .tools-and-tech h2 {font-size:4vw}
+        .tool-name {
+        width:26%
+        }
+        .tech-icon {width:3.2vw;height:3.2vw;}
+        .tool-name > div { height: fit-content;
+            line-height: 5vw;font-size:3vw;padding:0 1.5vw 0 1vw}
+            .flex-tool{border-bottom: 1.5px solid #202028;}
+        .tool-list > div {
+            height: 5.5vw;
+            font-size: 2.9vw;
+            margin:0 0 .5vw 1vw;
+            /* margin-left: 1vw; */
+        }
+        .second-faq-flex{flex-wrap:wrap}
+        .second-faq h2 {font-size:4.2vw;}
+        .second-faq-col{width:100%;font-size:2.1vw;margin:1% 0}
+.second-faq-col
+
+
 
         }
 
