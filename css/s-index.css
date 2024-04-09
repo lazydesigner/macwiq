@@ -1141,6 +1141,8 @@ footer .brands {
                         margin: 0;
                         font-size: 2.5vw;
                     }
+                    .form-flex{flex-wrap:wrap}
+                    .form-group input {height:6vw}
                     .form-contact-col strong {
                         font-size: 3.3vw;
                     }
