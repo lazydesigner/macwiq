@@ -1115,7 +1115,10 @@ footer .brands {
         .second-faq-flex{flex-wrap:wrap}
         .second-faq h2 {font-size:4.2vw;}
         .second-faq-col{width:100%;font-size:2.1vw;margin:1% 0}
-.second-faq-col
+        .second-faq{white:98%}
+        .second-faq-col span {
+        width:4vw
+        }
 
 
 
