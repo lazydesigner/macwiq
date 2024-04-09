@@ -109,12 +109,12 @@
     .service-flex{
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
         grid-template-rows:none;
-        grid-auto-rows: 50vw;
+        grid-auto-rows: 80vw;
     }
-    .service-txt{bottom:.5vw;}
-    .service-items:hover .service-txt {
+    .service-txt{bottom:-10vw;}
+    /* .service-items:hover .service-txt {
         bottom: 19vw;
-    }
+    } */
     .service-txt h3 {
         font-weight: 500;
         font-size: 6.7vw;
