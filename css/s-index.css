@@ -1098,6 +1098,10 @@ footer .brands {
         .tool-name {
         width:43%
         }
+        .swip {
+            padding: 10% 0;
+        }
+        .section6{height:50vh}
         .tech-icon {width:3.2vw;height:3.2vw;}
         .tool-name > div { height: fit-content;
             line-height: 10vw;font-size:5vw;padding:0 1.5vw 0 1vw}
