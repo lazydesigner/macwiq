@@ -1175,7 +1175,7 @@ footer .brands {
                         .form-group:last-child .form-flex >div {
                             width: 65%;
                         }
-                        .background-img-section33 {bottom:-5%}
+                        .background-img-section33 {bottom:-4%}
                         .form-group button {
                             width: 30vw;
                             height: 10vw;
@@ -1224,7 +1224,7 @@ footer .brands {
                             .footer-bottom .d p {
                                 font-size: x-small;
                             }
-        
+                            footer .container h2 {font-size:7.5vw}
             }
 
 
