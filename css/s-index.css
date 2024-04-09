@@ -1115,21 +1115,22 @@ footer .brands {
         }
         .second-faq-flex{flex-wrap:wrap}
         .second-faq h2 {font-size:4.2vw;}
-        .second-faq-col{width:100%;font-size:2.1vw;margin:1% 0}
-        .second-faq{white:98%}
+        .second-faq-col{width:100%;font-size:2.6vw;margin:1% 0}
+        .second-faq{width:98%}
         .second-faq-col span {
         width:4vw
         }
+        /* BELOW FOOTER MOBILE CSS */
         .form-container{width:95%;flex-wrap:wrap}
         .form-contact{width:100%;height:auto}
         .form-fields{width:100%;height:auto;margin-bottom:5%}
         .form-fields h2 {
             font-size: 4.3vw;}
             .form-group label {
-                font-size: 2.5vw;}
+                font-size: 3.5vw;}
                 .form-group:last-child .form-flex >div > p {
-                    font-size: 2.1vw;
-                    line-height: 2.75vw;
+                    font-size: 3.7vw;
+    line-height: 4.75vw;
                 }
                 .form-contact-container .f-c-c {
                     font-size: 4.5vw;}
@@ -1143,7 +1144,7 @@ footer .brands {
                         font-size: 2.5vw;
                     }
                     .form-flex{flex-wrap:wrap}
-                    .form-group input {height:6vw}
+                    .form-group input {height:7vw}
                     .form-contact-col strong {
                         font-size: 3.3vw;
                     }
@@ -1156,12 +1157,57 @@ footer .brands {
                             height: 10.6vw;
                             margin: 5% 0;
                         }
+                        .form-group:last-child .form-flex >div {
+                            width: 65%;
+                        }
                         .background-img-section33 {bottom:-5%}
                         .form-group button {
-                            width: 19vw;
-                            height: 7vw;
+                            width: 30vw;
+                            height: 10vw;
                             border: 0;
-                            font-size: 3.1vw;}              
+                            font-size: 4.1vw;}   
+                            footer{height:auto}
+                            footer .container {width:100%}   
+                            .footer-flex{flex-wrap:wrap;}
+                            .footer-col{width:100%;margin: 2% 0;;height:auto;padding:1%}        
+                            .footer-col p {
+                                margin: 2% auto;
+                                width: 70%;
+                                font-size: 2.8vw;
+                            }
+                            .footer-box {
+                                height: 12vw;
+                                margin-top: 1vw;
+                                padding: 3%;
+                                font-size: 2.8vw;
+                            }
+                            .footer-box button {
+                                width: 21vw;
+                                font-size: 1.7vw;
+                                height: 6vw;
+                            }
+                            .footer-grid {
+                                grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+                            }
+                            footer .brands {
+                                width: 50vw;
+                                margin-bottom: 1vw;
+                            }
+                            .grid-box strong {
+                                font-size: 6.25vw;
+                            }
+                            .grid-box p {
+                                font-size: 4vw;
+                                line-height: 5.25vw;
+                            }
+                            .grid-box:nth-child(2), .grid-box:nth-child(3) {
+                                padding-left: 5%;
+                            }
+                            .footer-bottom{height:15vw}
+                            .footer-bottom .d{width:95%}
+                            .footer-bottom .d p {
+                                font-size: x-small;
+                            }
         
             }
 
