@@ -807,6 +807,7 @@ nav{
 .form-group input{
     border: 0;
     width: 100%;
+    outline:0;
     height: 2vw;
     border-bottom: .01vw solid #8f8f8f;
 }
