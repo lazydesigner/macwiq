@@ -1122,7 +1122,7 @@ footer .brands {
         }
         .form-container{width:95%;flex-wrap:wrap}
         .form-contact{width:100%;height:auto}
-        .form-fields{width:100%;height:auto}
+        .form-fields{width:100%;height:auto;margin-bottom:5%}
         .form-fields h2 {
             font-size: 4.3vw;}
             .form-group label {
@@ -1157,6 +1157,11 @@ footer .brands {
                             margin: 5% 0;
                         }
                         .background-img-section33 {bottom:-5%}
+                        .form-group button {
+                            width: 19vw;
+                            height: 7vw;
+                            border: 0;
+                            font-size: 3.1vw;}              
         
             }
 
