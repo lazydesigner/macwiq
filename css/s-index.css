@@ -1119,10 +1119,46 @@ footer .brands {
         .second-faq-col span {
         width:4vw
         }
+        .form-container{width:95%;flex-wrap:wrap}
+        .form-contact{width:100%;height:auto}
+        .form-fields{width:100%;height:auto}
+        .form-fields h2 {
+            font-size: 4.3vw;}
+            .form-group label {
+                font-size: 2.5vw;}
+                .form-group:last-child .form-flex >div > p {
+                    font-size: 2.1vw;
+                    line-height: 2.75vw;
+                }
+                .form-contact-container .f-c-c {
+                    font-size: 4.5vw;}
+                    .form-contact-container p {
+                        font-size: 2.5vw;
+                        line-height: 3.5vw;
+                        margin: 2% 0
+                    }
+                    .form-contact-col p {
+                        margin: 0;
+                        font-size: 2.5vw;
+                    }
+                    .form-contact-col strong {
+                        font-size: 3.3vw;
+                    }
+                    .form-contact-icon {
+                        width: 10.54vw;
+                        height: 10.54vw;}
+                        .form-contact-flex {margin:1% 0}
+                        .form-contact-social-icon-item {
+                            width: 10.6vw;
+                            height: 10.6vw;
+                            margin: 5% 0;
+                        }
+                        .background-img-section33 {bottom:-5%}
+        
+            }
 
 
 
-        }
 
         
 
