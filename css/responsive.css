@@ -1,9 +1,129 @@
 
-@media (min-width:320px) AND (max-width:600px){
-    .list-of-links{display: none;}
+@media (min-width:320px) AND (max-width:650px){
+    
+        /* BELOW FOOTER MOBILE CSS */
+        nav{height:47px}
+        .search-icon {
+            width: 20px;
+            height: 20px;}
+            .nav-contact-us button {
+                width: 28vw;
+                height: 8vw;}
+        .brand {
+            width: 30vw;}
+            .list-of-links{display:none}
+
+
+
+
+        .footer .container h2{font-size:7.5vw}
+        .form-container{width:95%;flex-wrap:wrap}
+        .form-contact{width:100%;height:auto}
+        .form-fields{width:100%;height:auto;margin-bottom:5%}
+        .form-fields h2 {
+            font-size: 4.3vw;}
+            .form-group label {
+                font-size: 3.5vw;}
+                .form-group:last-child .form-flex >div > p {
+                    font-size: 3.7vw;
+    line-height: 4.75vw;
+                }
+                .form-contact-container .f-c-c {
+                    font-size: 4.5vw;}
+                    .form-contact-container p {
+                        font-size: 2.5vw;
+                        line-height: 3.5vw;
+                        margin: 2% 0
+                    }
+                    .form-contact-col p {
+                        margin: 0;
+                        font-size: 2.5vw;
+                    }
+                    .form-flex{flex-wrap:wrap}
+                    .form-group input {height:7vw}
+                    .form-contact-col strong {
+                        font-size: 3.3vw;
+                    }
+                    .form-contact-icon {
+                        width: 10.54vw;
+                        height: 10.54vw;}
+                        .form-contact-flex {margin:1% 0}
+                        .form-contact-social-icon-item {
+                            width: 10.6vw;
+                            height: 10.6vw;
+                            margin: 5% 0;
+                        }
+                        .form-group:last-child .form-flex >div {
+                            width: 65%;
+                        }
+                        .background-img-section33 {bottom:-4%}
+                        .form-group button {
+                            width: 30vw;
+                            height: 10vw;
+                            border: 0;
+                            font-size: 4.1vw;}   
+                            footer{height:auto}
+                            footer .container {width:100%}   
+                            .footer-flex{flex-wrap:wrap;}
+                            .footer-col{width:100%;margin: 2% 0;;height:auto;padding:1%}        
+                            .footer-col p {
+                                margin: 2% auto;
+                                width: 70%;
+                                font-size: 2.8vw;
+                            }
+                            .footer-box {
+                                height: 28vw;
+                                margin-top: 1vw;
+                                padding: 3%;
+                                font-size: 2.8vw;
+                                flex-wrap:wrap
+                            }
+                            .footer-box button {
+                                width: 30vw;
+                                font-size: 2.7vw;
+                                height: 8vw;
+                            }
+                            .footer-grid {
+                                grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+                            }
+                            footer .brands {
+                                width: 50vw;
+                                margin-bottom: 1vw;
+                            }
+                            .grid-box strong {
+                                font-size: 6.25vw;
+                            }
+                            .grid-box p {
+                                font-size: 4vw;
+                                line-height: 5.25vw;
+                            }
+                            .grid-box:nth-child(2), .grid-box:nth-child(3) {
+                                padding-left: 5%;
+                            }
+                            .footer-bottom{height:15vw}
+                            .footer-bottom .d{width:95%}
+                            .footer-bottom .d p {
+                                font-size: x-small;
+                            }
+                            footer .container h2 {font-size:7.5vw}
     .service-flex{
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
         grid-template-rows:none;
-        grid-auto-rows: 35.9vw;
+        grid-auto-rows: 50vw;
+    }
+    .service-txt{bottom:.5vw;}
+    .service-items:hover .service-txt {
+        bottom: 19vw;
+    }
+    .service-txt h3 {
+        font-weight: 500;
+        font-size: 6.7vw;
+        line-height: 8vw;
+        margin: 0;
+    }
+    .service-txt p {
+        font-size: 4.1vw;
+        line-height: 6vw;
+        margin: .5vw 0 0 0;
     }
 }

@@ -8,7 +8,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/indexx.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsive.css?v=<?=time() ?>">
     <title>Document</title>
 </head>
 
