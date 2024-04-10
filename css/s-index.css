@@ -6,12 +6,14 @@ html,body{
     margin: 0;
     font-family: inter;
 }
-nav{
+
+nav {
     width: 100%;
-    height: 69px;
+    height: 3.5vw;
     background-color: #1b1525;
 }
-.nav-container{
+
+.nav-container {
     width: 95%;
     height: 100%;
     display: flex;
@@ -19,66 +21,52 @@ nav{
     align-items: center;
     margin: auto;
 }
-.brand{
-    width: 198px;
-    height: 38px;
+
+.brand {
+    width: 10vw;
+    height: 5vw;
 }
-.brand img{
+
+.brand img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.list-of-links{
+
+.list-of-links {
     width: calc(100% - 390px);
     margin: auto;
     text-align: center;
 }
-.list-of-links a{
+
+.list-of-links a {
     text-wrap: nowrap;
     text-decoration: none;
     color: white;
-    margin:0 1%;
-    font-size: 22px;
+    margin: 0 1%;
+    font-size: 1vw;
 }
-.nav-contact-us{
+
+.nav-contact-us {
     display: flex;
     align-items: center;
     gap: 6%;
 }
-.search-icon{
-    width: 28px;
-    height: 28px;
+
+.search-icon {
+    width: 1.5vw;
+    height: 1.5vw;
     /* background-color: #21d0b3; */
 }
-.nav-contact-us button{
-    width: 159px;
-    height: 41px;
+
+.nav-contact-us button {
+    width: 10vw;
+    height: 2.8vw;
     background-color: #21d0b3;
+    font-size: 1vw;
     color: #1b1525;
     border: 0;
     cursor: pointer;
-}
-@media (min-width:1366px ) AND (max-width:1440px) {
-    .brand{
-        width: 158px;
-        /* height: 38px; */
-    }
-    .list-of-links a{font-size: 16px;} 
-    .nav-contact-us button{
-        width: 129px;
-        height: 31px;
-    }
-}
-@media (min-width:1440px ) AND (max-width:1640px) {
-    .brand{
-        width: 168px;
-        /* height: 38px; */
-    }
-    .list-of-links a{font-size: 18px;} 
-    .nav-contact-us button{
-        width: 139px;
-        height: 37px;
-    }
 }
 
 
@@ -284,6 +272,7 @@ nav{
     display: flex;
     align-items: center;
 }
+.section3-txt h2{margin: 1vw 0;text-transform: uppercase;font-weight: 500;}
 
 /* SECTION 4 */
 /* W - 350px H - 380px */
@@ -978,7 +967,9 @@ footer .brands {
 .footer-bottom .d p {
     margin: 0;
 }
-
+@media (min-width:650px) AND (max-width:1000px){
+    .section5{height: auto;}
+}
 @media (min-width:320px) AND (max-width:650px){
     .container{width:90%}
     .header-image {

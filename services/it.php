@@ -12,6 +12,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
+    <style>
+        .header-image {
+            background-image: url('../image/it-header-image.png');
+            background-size: 100% 100%;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -19,7 +26,8 @@
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>IT Consulting
+ <br><span style="color:#21d0b3;">Services</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -27,7 +35,7 @@
     </div>
     <div class="container">
         <section class="service">
-            <p>Home / Services / <b>Custom Software Development</b></p>
+            <p>Home / Services / <b>IT Consultation and Planning</b></p>
             <h2>Services</h2>
             <div class="services-box-grid">
                 <div class="service-list">
@@ -36,7 +44,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>IT Assessments</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -46,7 +54,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>IT Strategy <br>Planning</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -56,7 +64,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>Digital Transformation <br> Consulting</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -66,7 +74,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>Security Risk Assessments</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -76,7 +84,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Cloud & Data Migration <br> Services</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -86,7 +94,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>Custom Web & Mobile <br> Application Develpment</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -97,12 +105,12 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/it-img2.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+                <h2>IT Consulting Service <br>
+Process We Follow </h2>
+<div class="section-5-color-line" style="margin:0"></div>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
@@ -116,7 +124,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>Cost-Efficient</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -124,7 +132,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>Data and Security</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -132,7 +140,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>Faster Development <br> & Market Release</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -140,7 +148,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Disaster Recovery</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
