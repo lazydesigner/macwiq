@@ -13,13 +13,33 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
 </head>
+<style>
+    .header-image {
+            background-image: url('../image/14.\ Cloud\ Computing.webp');
+            background-size: 100% 100%;
+        }
+
+    .section5{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 15%;
+    background-image: url('../image/section-bg-imafge.webp')!important;
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    background-position:center;
+}
+
+    </style>
 
 <body>
     <?php include '../navbar.php' ?>
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>Cloud Computing <br><span style="color:#21d0b3;">Services</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -36,7 +56,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>Cloud Implementation<br>Strategy </strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -46,7 +66,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>Cloud Application<br>Services</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -56,7 +76,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>Cloud Management Services</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -66,7 +86,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>DevOps As A Service</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -76,7 +96,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Cloud Migration Services</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -86,7 +106,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>Cloud Infastructer &<br>Implementation Services</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -100,23 +120,22 @@
             <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+                <h2>The Next-Generation <br>
+                    Cloud Design Is Here</h2>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
         </div>
     </section>
     <div class="section4 container">
-        <h2>Macwiq: Your Custom <br>
-            Software Development Partner </h2>
+        <h2>Why Choose Macwiq For <br>
+            Cloud Computing Services?</h2>
         <div class="section4-flex">
             <div class="section4-cards">
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>Cost-Efficient</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -124,7 +143,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>Data and Security</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -132,7 +151,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>Faster Deploymennt <br> & Market Release</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -140,7 +159,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Disaster-Recovery</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -148,9 +167,9 @@
     </div>
     <section class="faq-section">
         <div class="container faq-body">
-            <h2>Our Industry Specific Software Capabilities</h2>
-            <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
-                deliverables of any type, size & industry</p>
+            <h2>Leverage Our Cloud Expertise</h2>
+            <!-- <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
+                deliverables of any type, size & industry</p> -->
 
             <div class="list-of-faq">
                 <div class="faq">
@@ -183,72 +202,14 @@
                             doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
                     </div>
                 </div>
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
-                </div>
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
-                </div>
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
-                </div>
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
+               
                 </div>
             </div>
 
         </div>
     </section>
 
-    <div class="section6">
+    <!-- <div class="section6">
         <h2>Discover Our Way to Impactful Work</h2>
         <div class="section6-line"></div>
         <p>See our product development journey helping our clients open new opportunities and drive growth. Our
@@ -290,12 +251,12 @@
         </div>
 
 
-    </div>
+    </div> -->
 
     <section class="section5">
         <div class="section5-txt">
-            <h2>Our Custom Software <br>
-                Development Process</h2>
+            <h2>Why Choose Cloud <br>
+                For Your Business?</h2>
             <div class="section-5-color-line"></div>
             <p>A website solution is highly efficient and holds a lot
                 to offer to your businesses, whether you are a small
@@ -384,109 +345,8 @@
         </div>
     </section>
 
-    <section class="tools-and-tech">
-        <div class="container">
-            <h2>Tools & Technologies We Prefer</h2>
-
-
-
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Back-end </div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> .NET</div>
-                    <div><span class="tech-icon"><img src="../image/logo/java (1).png" alt=""></span> Java</div>
-                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
-                    <div><span class="tech-icon"><img src="../image/logo/php.webp" alt=""></span> PHP</div>
-                    <div><span class="tech-icon"><img src="../image/logo/nodejs-icon-svg.webp" alt=""></span> NodeJS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/golang_official_logo_icon_169092 (1).webp" alt=""></span> Golang</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Front-end </div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/html-5.webp" alt=""></span> HTML5</div>
-                    <div><span class="tech-icon"><img src="../image/logo/javascript_icon_130900.webp" alt=""></span> JavaScript</div>
-                    <div><span class="tech-icon"><img src="../image/logo/css-3.webp" alt=""></span> CSS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/file_type_angular_icon_130754.webp" alt=""></span> Angular</div>
-                    <div><span class="tech-icon"><img src="../image/logo/react_icon_130845.webp" alt=""></span> ReactJS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/vuejs_original_logo_icon_146304.webp" alt=""></span> vuejs</div>
-                    <div><span class="tech-icon"><img src="../image/logo/e-icon.webp" alt=""></span> Ember JS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/meteor-js-icon.webp" alt=""></span> Metear</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Mobile</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/c-.webp" alt=""></span> C++</div>
-                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span> C#</div>
-                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
-                    <div><span class="tech-icon"><img src="../image/logo/apple_objectivec-icon-svg.webp" alt=""></span> Objective-C</div>
-                    <div><span class="tech-icon"><img src="../image/logo/swift.webp" alt=""></span> Swift</div>
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> Fluter</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Xamarin</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Ionic</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Database</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> DQL Server</div>
-                    <div><span class="tech-icon"><img src="../image/logo/mysql.webp" alt=""></span> MYSQL</div>
-                    <div><span class="tech-icon"><img src="../image/logo/5968342.webp" alt=""></span> PostgreSQL</div>
-                    <div><span class="tech-icon"><img src="../image/logo/oracle-svg.webp" alt=""></span> Oracel</div>
-                    <div><span class="tech-icon"><img src="../image/logo/Apache_Feather_Logo.svg.webp" alt=""></span> Apache</div>
-                    <div><span class="tech-icon"><img src="../image/logo/eyes.webp" alt=""></span> Cassandra</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Hive</div>
-                    <div><span class="tech-icon"><img src="../image/logo/mongodb-icon-1-svg (1).webp" alt=""></span> MongoDB</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Quality Assurance</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/selenium-icon-2048x1986-3fr2ikf8.webp" alt=""></span> Selenium</div>
-                    <div><span class="tech-icon"><img src="../image/logo/a" alt=""></span> Appium</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> JMeter</div>
-                    <div><span class="tech-icon"><img src="../image/logo/HPE_LoadRunner_logo.webp" alt=""></span> LoadRunner</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>DevOps</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/docker.webp" alt=""></span> Docker</div>
-                    <div><span class="tech-icon"><img src="../image/logo/kubernetes-icon.webp" alt=""></span> Kubernetes</div>
-                    <div><span class="tech-icon"><img src="../image/logo/icon-svg.webp" alt=""></span> Ansible</div>
-                    <div><span class="tech-icon"><img src="../image/logo/1200px-Chef_logo.svg.webp" alt=""></span> Chef</div>
-                    <div><span class="tech-icon"><img src="../image/logo/puppet (1).webp" alt=""></span> Puppet</div>
-                    <div><span class="tech-icon"><img src="../image/logo/png-transparent-aws-vector-brand-logos-icon (1).webp" alt=""></span> AWS Developer Tools</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Azure DevOps</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Jenkins</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Developer Tools</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Cloud Services</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/general-awscloud-icon-512x512-tq2r4lgg.webp" alt=""></span> AWS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/azure.webp" alt=""></span> Microsoft Azure</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Cloud</div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
+       
 
     <section class="second-faq">
         <h2>Frequently Asked Questions</h2>
