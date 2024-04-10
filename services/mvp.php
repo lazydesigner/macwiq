@@ -14,38 +14,15 @@
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
     <style>
         .header-image {
-            background-image: url('../image/mobile-header.png');
+            background-image: url('../image/mvp-header-img.png');
             background-size: 100% 100%;
         }
 
-        .section3-img::after {
-            display: none
-        }
-
-        .section3-img::before {
-            display: none
-        }
-
-        .section3-img {
-            width: 49.73vw;
-            height: 33.65vw;
-            position: absolute;
-            right: -4vw;
-            top: auto;
-        }
-
-        .new-service .service-list {
-            border: 2.5px solid rgb(74, 74, 74);
-        }
-
-        .new-service .active-service-box {
-            border-radius: 3px;
-            background-size: 100%;
-            background-image: none;
-            background-repeat: no-repeat;
-            background-color: #202028;
-        }
-        .section5{margin-top: 15vw;}
+        .section5{
+    height: auto;
+    background-image: url('../image/mvp-img2.png');
+    margin: 15vw 0 15vw 0;
+}
         .section3-txt h2{margin: 1vw 0;text-transform: uppercase;font-weight: 500;}
     </style>
 </head>
@@ -63,7 +40,7 @@
     </div>
     <div class="container">
         <section class="service">
-            <p>Home / Services / <b>Mobile App Development</b></p>
+            <p>Home / Services / <b>MVP Development</b></p>
             <h2>Services</h2>
             <div class="services-box-grid">
                 <div class="service-list">
@@ -72,7 +49,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>IOS App Development</strong>
+                        <strong>Prototype Design/PoC <br>Development</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -82,7 +59,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Android App <br>Development</strong>
+                        <strong>Single Feature <br>MVP</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -92,7 +69,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Flutter App Developemnt</strong>
+                        <strong>MVP Developemnt</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -102,7 +79,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>React Native App<br>Developemnt</strong>
+                        <strong>MVP to Full-Scale Product</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -112,7 +89,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>MVP Development</strong>
+                        <strong>MVP Improvement</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -122,7 +99,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Progressive Web App<br>(PWA) Information</strong>
+                        <strong>MVP Consulting</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -133,12 +110,12 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/banner-img.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/mvp-img.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Technologies That<br>
-                    Deliver Brand<br>
-                    Experiences</h2>
+                <h2>Shape Your Early-Stage <br>
+Business With Least <br>
+Effort</h2>
                     <div class="section-5-color-line" style="margin:0"></div>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
@@ -146,11 +123,11 @@
         </div>
     </section>
 
-    <div style='background-color:#14141c;color:white!important;padding:2vw 0;' class='new-service'>
+    <div style='padding:2vw 0;' class='new-service'>
         <div class="container">
             <section class="service">
                 <h2 style='text-align:center;color:white' ;>Why Macwiq Is Your Best Choice<br><br>
-                    For Mobile Development?</h2>
+                    For MVP App Development?</h2>
                 <div class="services-box-grid">
                     <div class="service-list">
                         <div class="service-list-inner-box">
@@ -158,7 +135,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>IOS App Development</strong>
+                            <strong>Creative Thinkers</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -168,7 +145,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>Android App <br>Development</strong>
+                            <strong>Focus on Scalability</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -178,7 +155,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>Flutter App Developemnt</strong>
+                            <strong>Cross Functional Team</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -188,7 +165,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>React Native App<br>Developemnt</strong>
+                            <strong>Fuelling  Startups</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -198,7 +175,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>MVP Development</strong>
+                            <strong>Top Tier Talent</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -208,7 +185,7 @@
                             <div class="service-icon-box">
                                 <img src="../image/service-icon.png" alt="">
                             </div>
-                            <strong>Progressive Web App<br>(PWA) Information</strong>
+                            <strong>Transparency and<br>Accountability</strong>
                             <p>We offer tailored software solutions, automating processes, scaling products, providing
                                 real-time analytics, and agile innovation for your business.</p>
                         </div>
@@ -217,6 +194,107 @@
             </section>
         </div>
     </div>
+    <section class="faq-section">
+        <div class="container faq-body">
+            <h2>Our Industry Specific Software Capabilities</h2>
+            <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
+                deliverables of any type, size & industry</p>
+
+            <div class="list-of-faq">
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     
 
     <div class="section6">

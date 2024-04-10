@@ -21,16 +21,18 @@
 
     .section5{
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
     position: relative;
     box-sizing: border-box;
-    margin-bottom: 15%;
+    margin: 15% 0;
     background-image: url('../image/section-bg-imafge.webp')!important;
     background-repeat: no-repeat;
     background-size: 100%  100%;
     background-position:center;
 }
+
+.faq-section{height: auto;}
 
     </style>
 
