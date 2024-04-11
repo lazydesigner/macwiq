@@ -444,14 +444,11 @@ Effort</h2>
                     <div>Back-end </div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> .NET</div>
-                    <div><span class="tech-icon"><img src="../image/logo/java (1).png" alt=""></span> Java</div>
+                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span> C#</div>
                     <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
                     <div><span class="tech-icon"><img src="../image/logo/php.webp" alt=""></span> PHP</div>
                     <div><span class="tech-icon"><img src="../image/logo/nodejs-icon-svg.webp" alt=""></span> NodeJS
                     </div>
-                    <div><span class="tech-icon"><img src="../image/logo/golang_official_logo_icon_169092 (1).webp"
-                                alt=""></span> Golang</div>
                 </div>
             </div>
             <div class="flex-tool">
@@ -459,19 +456,16 @@ Effort</h2>
                     <div>Front-end </div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/html-5.webp" alt=""></span> HTML5</div>
                     <div><span class="tech-icon"><img src="../image/logo/javascript_icon_130900.webp" alt=""></span>
                         JavaScript</div>
-                    <div><span class="tech-icon"><img src="../image/logo/css-3.webp" alt=""></span> CSS</div>
                     <div><span class="tech-icon"><img src="../image/logo/file_type_angular_icon_130754.webp"
                                 alt=""></span> Angular</div>
-                    <div><span class="tech-icon"><img src="../image/logo/react_icon_130845.webp" alt=""></span> ReactJS
+                    <div><span class="tech-icon"><img src="../image/logo/react_icon_130845.webp" alt=""></span> React
                     </div>
                     <div><span class="tech-icon"><img src="../image/logo/vuejs_original_logo_icon_146304.webp"
                                 alt=""></span> vuejs</div>
-                    <div><span class="tech-icon"><img src="../image/logo/e-icon.webp" alt=""></span> Ember JS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/meteor-js-icon.webp" alt=""></span> Metear
-                    </div>
+                    <div><span class="tech-icon"><img src="../image/logo/vuejs_original_logo_icon_146304.webp"
+                                alt=""></span>TailwindCSS</div>
                 </div>
             </div>
             <div class="flex-tool">
@@ -480,7 +474,6 @@ Effort</h2>
                 </div>
                 <div class="tool-list">
                     <div><span class="tech-icon"><img src="../image/logo/c-.webp" alt=""></span> C++</div>
-                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span> C#</div>
                     <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
                     <div><span class="tech-icon"><img src="../image/logo/apple_objectivec-icon-svg.webp" alt=""></span>
                         Objective-C</div>
@@ -505,40 +498,6 @@ Effort</h2>
                     <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Hive</div>
                     <div><span class="tech-icon"><img src="../image/logo/mongodb-icon-1-svg (1).webp" alt=""></span>
                         MongoDB</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Quality Assurance</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/selenium-icon-2048x1986-3fr2ikf8.webp"
-                                alt=""></span> Selenium</div>
-                    <div><span class="tech-icon"><img src="../image/logo/a" alt=""></span> Appium</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> JMeter</div>
-                    <div><span class="tech-icon"><img src="../image/logo/HPE_LoadRunner_logo.webp" alt=""></span>
-                        LoadRunner</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>DevOps</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/docker.webp" alt=""></span> Docker</div>
-                    <div><span class="tech-icon"><img src="../image/logo/kubernetes-icon.webp" alt=""></span> Kubernetes
-                    </div>
-                    <div><span class="tech-icon"><img src="../image/logo/icon-svg.webp" alt=""></span> Ansible</div>
-                    <div><span class="tech-icon"><img src="../image/logo/1200px-Chef_logo.svg.webp" alt=""></span> Chef
-                    </div>
-                    <div><span class="tech-icon"><img src="../image/logo/puppet (1).webp" alt=""></span> Puppet</div>
-                    <div><span class="tech-icon"><img
-                                src="../image/logo/png-transparent-aws-vector-brand-logos-icon (1).webp" alt=""></span>
-                        AWS Developer Tools</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Azure DevOps</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Jenkins</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp"
-                                alt=""></span> Google Developer Tools</div>
                 </div>
             </div>
             <div class="flex-tool">
