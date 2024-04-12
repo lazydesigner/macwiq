@@ -797,7 +797,7 @@
             slidesPerView: 2,
             spaceBetween: 10
         },
-        });
+        }});
 
         function animateCounter(finalCount) {
             const projectCounter = document.getElementById('projectCounter');
