@@ -24,9 +24,9 @@
         }
         .section5{
     background-image: url('../image/technology-consulting-services-img2.png');
-    height: auto;
             margin: 10vw 0 5vw 0;
         }
+        @media (min-width:320px) and (max-width:650px){.section5{height: auto;}}
     </style>
 </head>
 
@@ -357,7 +357,7 @@ Consulting Process</h2>
 
 
     <section class="second-faq">
-        <h2>Frequently Asked Questions</h2>
+        <h2>Digital Marketing Services FAQs</h2>
         <div class="second-faq-box">
             <div class="second-faq-flex">
                 <div class="second-faq-col">

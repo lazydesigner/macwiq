@@ -12,6 +12,22 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
+    <style>
+        .header-image {
+            background-image: url('../image/uiux-header.png');
+            background-size: 100% 100%;
+        }
+        .section4-cards{height: auto;}
+        .section5{
+         background-image: url('../image/uiux-img2.png');
+            /* margin: 10vw 0 5vw 0; */
+        }
+        .tool-name > div {
+    height:auto;
+    line-height: 1.4vw;
+}
+        @media (min-width:320px) and (max-width:650px){.section5{height: auto;}}
+    </style>
 </head>
 
 <body>
@@ -19,7 +35,7 @@
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>UI/UX Design<br><span style="color:#21d0b3;">& Development services</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -36,7 +52,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>UI/UX Web Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -46,7 +62,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>UI?UX <br> Mobile Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -56,7 +72,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>Visual Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -66,7 +82,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>Interaction Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -76,7 +92,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Design Testing</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -86,7 +102,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>UI & UX Cunsulting</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -97,26 +113,26 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/uiux-img.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+                <h2>Solutions <br>
+We Infuse To <br>
+Deliver Creativity</h2>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
         </div>
     </section>
     <div class="section4 container">
-        <h2>Macwiq: Your Custom <br>
-            Software Development Partner </h2>
+        <h2>Why Macwiq Is Best For <br>
+UI/UX Designing Services? </h2>
         <div class="section4-flex">
             <div class="section4-cards">
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>International <br>Design Standards</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -124,7 +140,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>Futuristic Result <br>Delivery</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -132,7 +148,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>Personalise Cilent's <br>Design </strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -140,7 +156,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Surpass Our <br> Boundaries</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -148,11 +164,26 @@
     </div>
     <section class="faq-section">
         <div class="container faq-body">
-            <h2>Our Industry Specific Software Capabilities</h2>
+            <h2>Our UI/UX Designing Process</h2>
             <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
                 deliverables of any type, size & industry</p>
 
             <div class="list-of-faq">
+                <div class="faq">
+                    <div class="faq-question">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
+                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
+                    </div>
+                </div>
                 <div class="faq">
                     <div class="faq-question">
                         <p>Lorem ipsum dolor sit amet.</p>
@@ -249,7 +280,7 @@
     </section>
 
     <div class="section6">
-        <h2>Discover Our Way to Impactful Work</h2>
+        <h2>Our Work & The Impact Stories</h2>
         <div class="section6-line"></div>
         <p>See our product development journey helping our clients open new opportunities and drive growth. Our
             solutions are conditioned with your customers’ voices.</p>
@@ -294,8 +325,8 @@
 
     <section class="section5">
         <div class="section5-txt">
-            <h2>Our Custom Software <br>
-                Development Process</h2>
+            <h2>Get Engaging Experiences <br>
+            With Immersive Designs.</h2>
             <div class="section-5-color-line"></div>
             <p>A website solution is highly efficient and holds a lot
                 to offer to your businesses, whether you are a small
@@ -392,97 +423,59 @@
 
             <div class="flex-tool">
                 <div class="tool-name">
-                    <div>Back-end </div>
+                    <div>Programming Languages & Technologies</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> .NET</div>
-                    <div><span class="tech-icon"><img src="../image/logo/java (1).png" alt=""></span> Java</div>
-                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
-                    <div><span class="tech-icon"><img src="../image/logo/php.webp" alt=""></span> PHP</div>
-                    <div><span class="tech-icon"><img src="../image/logo/nodejs-icon-svg.webp" alt=""></span> NodeJS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/golang_official_logo_icon_169092 (1).webp" alt=""></span> Golang</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Front-end </div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/html-5.webp" alt=""></span> HTML5</div>
-                    <div><span class="tech-icon"><img src="../image/logo/javascript_icon_130900.webp" alt=""></span> JavaScript</div>
+                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span>Bootstrap</div>
+                    <div><span class="tech-icon"><img src="../image/logo/html-5.webp" alt=""></span>HTML5</div>
                     <div><span class="tech-icon"><img src="../image/logo/css-3.webp" alt=""></span> CSS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/file_type_angular_icon_130754.webp" alt=""></span> Angular</div>
+                    <div><span class="tech-icon"><img src="../image/logo/php.webp" alt=""></span>jQuery UI</div>
+                </div>
+            </div>
+            <div class="flex-tool">
+                <div class="tool-name">
+                    <div>wireframe & Prototype</div>
+                </div>
+                <div class="tool-list">
+                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span>wireframe CC</div>
+                    <div><span class="tech-icon"><img src="../image/logo/javascript_icon_130900.webp" alt=""></span> Mackflow</div>
+                    <div><span class="tech-icon"><img src="../image/logo/css-3.webp" alt=""></span> Figma</div>
+                    <div><span class="tech-icon"><img src="../image/logo/file_type_angular_icon_130754.webp" alt=""></span> Adobe XD</div>
                     <div><span class="tech-icon"><img src="../image/logo/react_icon_130845.webp" alt=""></span> ReactJS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/vuejs_original_logo_icon_146304.webp" alt=""></span> vuejs</div>
-                    <div><span class="tech-icon"><img src="../image/logo/e-icon.webp" alt=""></span> Ember JS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/meteor-js-icon.webp" alt=""></span> Metear</div>
                 </div>
             </div>
             <div class="flex-tool">
                 <div class="tool-name">
-                    <div>Mobile</div>
+                    <div>UI?UX(visual Designs)</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/c-.webp" alt=""></span> C++</div>
-                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span> C#</div>
-                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
-                    <div><span class="tech-icon"><img src="../image/logo/apple_objectivec-icon-svg.webp" alt=""></span> Objective-C</div>
-                    <div><span class="tech-icon"><img src="../image/logo/swift.webp" alt=""></span> Swift</div>
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> Fluter</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Xamarin</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Ionic</div>
+                    <div><span class="tech-icon"><img src="../image/logo/c-.webp" alt=""></span>Figma</div>
+                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span>Adobe XD</div>
+                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Photoshop</div>
+                    <div><span class="tech-icon"><img src="../image/logo/apple_objectivec-icon-svg.webp" alt=""></span> Illustrator</div>
+                    <div><span class="tech-icon"><img src="../image/logo/swift.webp" alt=""></span> Sketch</div>
+                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> InDesign</div>
                 </div>
             </div>
             <div class="flex-tool">
                 <div class="tool-name">
-                    <div>Database</div>
+                    <div>Collaborator</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> DQL Server</div>
-                    <div><span class="tech-icon"><img src="../image/logo/mysql.webp" alt=""></span> MYSQL</div>
-                    <div><span class="tech-icon"><img src="../image/logo/5968342.webp" alt=""></span> PostgreSQL</div>
-                    <div><span class="tech-icon"><img src="../image/logo/oracle-svg.webp" alt=""></span> Oracel</div>
-                    <div><span class="tech-icon"><img src="../image/logo/Apache_Feather_Logo.svg.webp" alt=""></span> Apache</div>
-                    <div><span class="tech-icon"><img src="../image/logo/eyes.webp" alt=""></span> Cassandra</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Hive</div>
-                    <div><span class="tech-icon"><img src="../image/logo/mongodb-icon-1-svg (1).webp" alt=""></span> MongoDB</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Zeplin</div>
+                    <div><span class="tech-icon"><img src="../image/logo/mysql.webp" alt=""></span> Invision</div>
+                    <div><span class="tech-icon"><img src="../image/logo/5968342.webp" alt=""></span> Figma</div>
                 </div>
             </div>
             <div class="flex-tool">
                 <div class="tool-name">
-                    <div>Quality Assurance</div>
+                    <div>Motion Graphics/Animation</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/selenium-icon-2048x1986-3fr2ikf8.webp" alt=""></span> Selenium</div>
-                    <div><span class="tech-icon"><img src="../image/logo/a" alt=""></span> Appium</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> JMeter</div>
-                    <div><span class="tech-icon"><img src="../image/logo/HPE_LoadRunner_logo.webp" alt=""></span> LoadRunner</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>DevOps</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/docker.webp" alt=""></span> Docker</div>
-                    <div><span class="tech-icon"><img src="../image/logo/kubernetes-icon.webp" alt=""></span> Kubernetes</div>
-                    <div><span class="tech-icon"><img src="../image/logo/icon-svg.webp" alt=""></span> Ansible</div>
-                    <div><span class="tech-icon"><img src="../image/logo/1200px-Chef_logo.svg.webp" alt=""></span> Chef</div>
-                    <div><span class="tech-icon"><img src="../image/logo/puppet (1).webp" alt=""></span> Puppet</div>
-                    <div><span class="tech-icon"><img src="../image/logo/png-transparent-aws-vector-brand-logos-icon (1).webp" alt=""></span> AWS Developer Tools</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Azure DevOps</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Jenkins</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Developer Tools</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Cloud Services</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/general-awscloud-icon-512x512-tq2r4lgg.webp" alt=""></span> AWS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/azure.webp" alt=""></span> Microsoft Azure</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Cloud</div>
+                    <div><span class="tech-icon"><img src="../image/logo/selenium-icon-2048x1986-3fr2ikf8.webp" alt=""></span> After Effects</div>
+                    <div><span class="tech-icon"><img src="../image/logo/a" alt=""></span> Adobe Animation</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Character Animation</div>
+                    <div><span class="tech-icon"><img src="../image/logo/HPE_LoadRunner_logo.webp" alt=""></span> Blender</div>
                 </div>
             </div>
         </div>

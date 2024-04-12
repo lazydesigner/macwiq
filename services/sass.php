@@ -14,7 +14,17 @@
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
 
     <style>
-        
+        .header-image {
+            background-image: url('../image/saas-header.png');
+            background-size: 100% 100%;
+        }
+        .section3-img {
+            width: 43.73vw;
+            height: 30.35vw;
+            position: absolute;
+            right: -4vw;
+            top: auto;
+        }
         .section3-img::after {
             display: none
         }
@@ -22,6 +32,11 @@
         .section3-img::before {
             display: none
         }
+        .section5{
+    background-image: url('../image/saas-img2.png');
+            /* margin: 10vw 0 5vw 0; */
+        }
+        @media (min-width:320px) and (max-width:650px){.section5{height: auto;}}
     </style>
 </head>
 
@@ -30,7 +45,7 @@
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>SaaS Application<br><span style="color:#21d0b3;">Development Services</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -47,7 +62,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>Custom  Saas Platform</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -57,7 +72,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>UI/UX<br>Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -67,7 +82,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>Saas Mobile Solutions</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -77,7 +92,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>Tech Migrarion & Re-<br>Engineering</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -87,7 +102,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Saas Architecture Design</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -97,7 +112,37 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>OpenAI-Saas Integration</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>API Developemnt</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>Saas Developemnt <br>Consulting</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>Secure & Compilent Saas <br>Solutions</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -108,26 +153,26 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/saas-img.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+                <h2>Our Custom SaaS <br>
+Solutions for Diverse <br>
+Businesses</h2>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
         </div>
     </section>
     <div class="section4 container">
-        <h2>Macwiq: Your Custom <br>
-            Software Development Partner </h2>
+        <h2>Why Choose Macwiq for <br>
+SaaS Development Services? </h2>
         <div class="section4-flex">
             <div class="section4-cards">
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>Quality Solutions</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -135,7 +180,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>Data Security</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -143,7 +188,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>Follow CI/Cd <br> Approach</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -151,7 +196,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Geo-Specific <br>Hosting</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -159,7 +204,8 @@
     </div>
     <section class="faq-section">
         <div class="container faq-body">
-            <h2>Our Industry Specific Software Capabilities</h2>
+            <h2>Our SaaS Product <br>
+Development Process</h2>
             <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
                 deliverables of any type, size & industry</p>
 
@@ -260,7 +306,7 @@
     </section>
 
     <div class="section6">
-        <h2>Discover Our Way to Impactful Work</h2>
+        <h2>Solutions Delivered By Our Team</h2>
         <div class="section6-line"></div>
         <p>See our product development journey helping our clients open new opportunities and drive growth. Our
             solutions are conditioned with your customers’ voices.</p>
@@ -305,8 +351,8 @@
 
     <section class="section5">
         <div class="section5-txt">
-            <h2>Our Custom Software <br>
-                Development Process</h2>
+            <h2>Types of SaaS <br>
+Solutions We Deliver</h2>
             <div class="section-5-color-line"></div>
             <p>A website solution is highly efficient and holds a lot
                 to offer to your businesses, whether you are a small
@@ -397,7 +443,7 @@
 
     <section class="tools-and-tech">
         <div class="container">
-            <h2>Tools & Technologies We Prefer</h2>
+            <h2>Built On The Top Of Technologies</h2>
 
 
 
@@ -406,12 +452,11 @@
                     <div>Back-end </div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> .NET</div>
                     <div><span class="tech-icon"><img src="../image/logo/java (1).png" alt=""></span> Java</div>
                     <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
                     <div><span class="tech-icon"><img src="../image/logo/php.webp" alt=""></span> PHP</div>
                     <div><span class="tech-icon"><img src="../image/logo/nodejs-icon-svg.webp" alt=""></span> NodeJS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/golang_official_logo_icon_169092 (1).webp" alt=""></span> Golang</div>
+                    <div><span class="tech-icon"><img src="../image/logo/golang_official_logo_icon_169092 (1).webp" alt=""></span>rubby on Rails</div>
                 </div>
             </div>
             <div class="flex-tool">
@@ -425,8 +470,6 @@
                     <div><span class="tech-icon"><img src="../image/logo/file_type_angular_icon_130754.webp" alt=""></span> Angular</div>
                     <div><span class="tech-icon"><img src="../image/logo/react_icon_130845.webp" alt=""></span> ReactJS</div>
                     <div><span class="tech-icon"><img src="../image/logo/vuejs_original_logo_icon_146304.webp" alt=""></span> vuejs</div>
-                    <div><span class="tech-icon"><img src="../image/logo/e-icon.webp" alt=""></span> Ember JS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/meteor-js-icon.webp" alt=""></span> Metear</div>
                 </div>
             </div>
             <div class="flex-tool">
@@ -434,14 +477,12 @@
                     <div>Mobile</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/c-.webp" alt=""></span> C++</div>
-                    <div><span class="tech-icon"><img src="../image/logo/c-sharp (1).webp" alt=""></span> C#</div>
-                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Python</div>
+                    <div><span class="tech-icon"><img src="../image/logo/python.webp" alt=""></span> Kotlin</div>
                     <div><span class="tech-icon"><img src="../image/logo/apple_objectivec-icon-svg.webp" alt=""></span> Objective-C</div>
                     <div><span class="tech-icon"><img src="../image/logo/swift.webp" alt=""></span> Swift</div>
                     <div><span class="tech-icon"><img src="../image/logo/" alt=""></span> Fluter</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Xamarin</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Ionic</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Java</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Reactive-Native</div>
                 </div>
             </div>
             <div class="flex-tool">
@@ -449,51 +490,22 @@
                     <div>Database</div>
                 </div>
                 <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> DQL Server</div>
                     <div><span class="tech-icon"><img src="../image/logo/mysql.webp" alt=""></span> MYSQL</div>
                     <div><span class="tech-icon"><img src="../image/logo/5968342.webp" alt=""></span> PostgreSQL</div>
-                    <div><span class="tech-icon"><img src="../image/logo/oracle-svg.webp" alt=""></span> Oracel</div>
-                    <div><span class="tech-icon"><img src="../image/logo/Apache_Feather_Logo.svg.webp" alt=""></span> Apache</div>
-                    <div><span class="tech-icon"><img src="../image/logo/eyes.webp" alt=""></span> Cassandra</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Hive</div>
-                    <div><span class="tech-icon"><img src="../image/logo/mongodb-icon-1-svg (1).webp" alt=""></span> MongoDB</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Redis</div>
+                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> ElasticSearch</div>
                 </div>
             </div>
             <div class="flex-tool">
                 <div class="tool-name">
-                    <div>Quality Assurance</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/selenium-icon-2048x1986-3fr2ikf8.webp" alt=""></span> Selenium</div>
-                    <div><span class="tech-icon"><img src="../image/logo/a" alt=""></span> Appium</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> JMeter</div>
-                    <div><span class="tech-icon"><img src="../image/logo/HPE_LoadRunner_logo.webp" alt=""></span> LoadRunner</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>DevOps</div>
-                </div>
-                <div class="tool-list">
-                    <div><span class="tech-icon"><img src="../image/logo/docker.webp" alt=""></span> Docker</div>
-                    <div><span class="tech-icon"><img src="../image/logo/kubernetes-icon.webp" alt=""></span> Kubernetes</div>
-                    <div><span class="tech-icon"><img src="../image/logo/icon-svg.webp" alt=""></span> Ansible</div>
-                    <div><span class="tech-icon"><img src="../image/logo/1200px-Chef_logo.svg.webp" alt=""></span> Chef</div>
-                    <div><span class="tech-icon"><img src="../image/logo/puppet (1).webp" alt=""></span> Puppet</div>
-                    <div><span class="tech-icon"><img src="../image/logo/png-transparent-aws-vector-brand-logos-icon (1).webp" alt=""></span> AWS Developer Tools</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Azure DevOps</div>
-                    <div><span class="tech-icon"><img src="../image/logo" alt=""></span> Jenkins</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Developer Tools</div>
-                </div>
-            </div>
-            <div class="flex-tool">
-                <div class="tool-name">
-                    <div>Cloud Services</div>
+                    <div>Infrastructure</div>
                 </div>
                 <div class="tool-list">
                     <div><span class="tech-icon"><img src="../image/logo/general-awscloud-icon-512x512-tq2r4lgg.webp" alt=""></span> AWS</div>
-                    <div><span class="tech-icon"><img src="../image/logo/azure.webp" alt=""></span> Microsoft Azure</div>
-                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span> Google Cloud</div>
+                    <div><span class="tech-icon"><img src="../image/logo/azure.webp" alt=""></span>Azure</div>
+                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span>Digital Ocean</div>
+                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span>Heroku</div>
+                    <div><span class="tech-icon"><img src="../image/logo/google-cloud-icon-2048x1646-7admxejz.webp" alt=""></span>GCP</div>
                 </div>
             </div>
         </div>

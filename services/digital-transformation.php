@@ -12,6 +12,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
+    <style>
+        .header-image {
+            background-image: url('../image/digital-transformation-header.png');
+            background-size: 100% 100%;
+        }
+        .section4-cards{height: auto;}
+        .section5{
+         background-image: url('../image/digital-transformation-img2.png');
+            /* margin: 10vw 0 5vw 0; */
+        }
+        @media (min-width:320px) and (max-width:650px){.section5{height: auto;}}
+    </style>
+
 
 </head>
 
@@ -20,7 +33,7 @@
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>Digital Modernization <br><span style="color:#21d0b3;">& Transformation Services</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -37,7 +50,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>Architecture<br>Modernization</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -47,7 +60,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>Technology<br>Modernization</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -57,7 +70,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>UI/UX Modernization</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -67,7 +80,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>Integration Modernization</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -77,7 +90,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Data Engineering & AI</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -87,7 +100,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>Product Re-engineering</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -98,26 +111,26 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/digital-transformation-img.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
-                <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+                <h2>Making <br>
+                Businesses Agile <br>
+                & Future-Ready</h2>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
         </div>
     </section>
     <div class="section4 container">
-        <h2>Macwiq: Your Custom <br>
-            Software Development Partner </h2>
+        <h2>Why Choose Macwiq for <br>
+            Product Modernization? </h2>
         <div class="section4-flex">
             <div class="section4-cards">
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>Low Business <br>Disruption</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -125,7 +138,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>Selective <br>Refactoring</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -133,7 +146,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>On-Time Delivery</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -141,7 +154,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Faster Time to Market</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -149,41 +162,9 @@
     </div>
     <section class="faq-section">
         <div class="container faq-body">
-            <h2>Our Industry Specific Software Capabilities</h2>
-            <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
-                deliverables of any type, size & industry</p>
+            <h2>Our Digital Modernization Process</h2>
 
             <div class="list-of-faq">
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
-                </div>
-                <div class="faq">
-                    <div class="faq-question">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
-                                </path>
-                            </svg></div>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis asperiores
-                            doloremque omnis eaque officiis molestiae ad aut deserunt sint.</p>
-                    </div>
-                </div>
                 <div class="faq">
                     <div class="faq-question">
                         <p>Lorem ipsum dolor sit amet.</p>
@@ -250,7 +231,7 @@
     </section>
 
     <div class="section6">
-        <h2>Discover Our Way to Impactful Work</h2>
+        <h2>Solutions Delivered by Our Web Development Team</h2>
         <div class="section6-line"></div>
         <p>See our product development journey helping our clients open new opportunities and drive growth. Our
             solutions are conditioned with your customers’ voices.</p>
@@ -295,8 +276,8 @@
 
     <section class="section5">
         <div class="section5-txt">
-            <h2>Our Custom Software <br>
-                Development Process</h2>
+            <h2>Benefits of Digital <br>
+Modernization Solutions</h2>
             <div class="section-5-color-line"></div>
             <p>A website solution is highly efficient and holds a lot
                 to offer to your businesses, whether you are a small
