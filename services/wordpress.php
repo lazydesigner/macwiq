@@ -12,6 +12,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/s-index.css?v=<?=time() ?>">
+    
+    <style>
+        .header-image {
+            background-image: url('../image/wordpress-header.png');
+            background-size: 100% 100%;
+        }
+        .section4-cards{height: auto;}
+        .section5{
+         background-image: url('../image/wordpress-img2.png');
+            /* margin: 10vw 0 5vw 0; */
+        }
+        @media (min-width:320px) and (max-width:650px){.section5{height: auto;}}
+    </style>
 </head>
 
 <body>
@@ -19,7 +32,7 @@
     <div class="header-image">
         <div class="container">
             <div class="header-txt">
-                <h1>custom software <br><span style="color:#21d0b3;">development services</span></h1>
+                <h1>WordPress Website <br><span style="color:#21d0b3;">Development Company</span></h1>
                 <p>Drive profitable growth with our innovation-led mobile app development
                     services that meets business objectives with simplified user experience.</p>
             </div>
@@ -27,7 +40,7 @@
     </div>
     <div class="container">
         <section class="service">
-            <p>Home / Services / <b>Custom Software Development</b></p>
+            <p>Home / Services / <b>WordPress Development</b></p>
             <h2>Services</h2>
             <div class="services-box-grid">
                 <div class="service-list">
@@ -36,7 +49,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Legacy System<br>Modernization</strong>
+                        <strong>CMS Development</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -46,7 +59,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom<br>Software</strong>
+                        <strong>Custom WordPress<br>Web Developemnt</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -56,7 +69,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Enterprise Software</strong>
+                        <strong>WordPress eCommerce <br>Developemnt</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -66,7 +79,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Custom CRM Development</strong>
+                        <strong>WordPress Plugin <br> Development</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -76,7 +89,7 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Software Product<br>Development</strong>
+                        <strong>Responsive WordPress<br>Theme Development</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -86,7 +99,37 @@
                         <div class="service-icon-box">
                             <img src="../image/service-icon.png" alt="">
                         </div>
-                        <strong>Data Analytics &<br>Information</strong>
+                        <strong>WordPress Migration and<br>Maintenance Service</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>WordPress CMS <br>Installatino &<br>Configuration</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>API Integration and <br>Module Managemant</strong>
+                        <p>We offer tailored software solutions, automating processes, scaling products, providing
+                            real-time analytics, and agile innovation for your business.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-inner-box">
+                        <div class="service-icon-box">
+                            <img src="../image/service-icon.png" alt="">
+                        </div>
+                        <strong>Conversion to WordPress</strong>
                         <p>We offer tailored software solutions, automating processes, scaling products, providing
                             real-time analytics, and agile innovation for your business.</p>
                     </div>
@@ -97,26 +140,26 @@
     <section class="section3">
         <img src="../image/section3.png" class="section3-back" width="100%" height="100%" alt="">
         <div class="container section3-w">
-            <div class="section3-img"><img src="../image/section3_.png" width="100%" height="100%" alt=""></div>
+            <div class="section3-img"><img src="../image/wordpress-img.png" width="100%" height="100%" alt=""></div>
 
             <div class="section3-txt">
                 <h2>Our <br>
-                    Custom Software <br>
-                    Development Process</h2>
+Custom Software <br>
+Development Process</h2>
                 <p>Building intuitive user interface for custom solutions by combining
                     your ideas and our end-to-end front-end development expertise</p>
             </div>
         </div>
     </section>
     <div class="section4 container">
-        <h2>Macwiq: Your Custom <br>
-            Software Development Partner </h2>
+        <h2>How Macwiq Can Help You <br>
+to Meet Your Expectations? </h2>
         <div class="section4-flex">
             <div class="section4-cards">
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106.webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Engineering <br>Excellence</strong>
+                <strong>Seamless UI/UX</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -124,7 +167,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (1).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Futur-ready <br>Solutions</strong>
+                <strong>DevOps Engineers</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -132,7 +175,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (2).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Timely Marketing</strong>
+                <strong>Powerful Analytics</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -140,7 +183,7 @@
                 <div class="section4-icon">
                     <img src="../image/logo/Layer 106 (3).webp" alt="" width="100%" height="100%">
                 </div>
-                <strong>Smart Solutions</strong>
+                <strong>Robust  Execution <br>Framework</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, odio. consectetur adipisicing elit.
                     Neque, odio.</p>
             </div>
@@ -148,7 +191,7 @@
     </div>
     <section class="faq-section">
         <div class="container faq-body">
-            <h2>Our Industry Specific Software Capabilities</h2>
+            <h2>Why Build Using WordPress?</h2>
             <p>we have a quilified team ofcustom software developers, who are quick to analyze business requirements and
                 deliverables of any type, size & industry</p>
 
@@ -294,8 +337,8 @@
 
     <section class="section5">
         <div class="section5-txt">
-            <h2>Our Custom Software <br>
-                Development Process</h2>
+            <h2>Our Committed <br>
+            Work Process </h2>
             <div class="section-5-color-line"></div>
             <p>A website solution is highly efficient and holds a lot
                 to offer to your businesses, whether you are a small
