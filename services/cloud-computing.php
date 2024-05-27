@@ -351,7 +351,7 @@
        
 
     <section class="second-faq">
-        <h2>Frequently Asked Questions</h2>
+        <h2>Frequently Asked Questios</h2>
         <div class="second-faq-box">
             <div class="second-faq-flex">
                 <div class="second-faq-col">
