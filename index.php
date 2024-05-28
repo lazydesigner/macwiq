@@ -56,7 +56,7 @@
                 <div class=" col-lg-6 col-mg-6  col-sm-12 ">
 
                     <div class="bg-image form-main">
-                        <h2 class=" pt-2 text-center text-bright form-br"></h2>
+                        <h2 class=" pt-2 text-center text-bright form-br">Get A Free Quote</h2>
                         <h3 class=" pt-2 pb-3"> First Step</h3>
 
                         <form>
@@ -88,7 +88,7 @@
                                         <div class="car-option" id="car-option">
                                             <div class="cars" id="cars"><img src="img/medium-pickup.png" loading="lazy"
                                                     alt="">
-                                                <p></p>
+                                                <p>medium-pickup</p>
                                             </div>
                                             <div class="cars" id="cars"><img src="img/midsize-suv.png" loading="lazy"
                                                     alt="">
