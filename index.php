@@ -88,7 +88,7 @@
                                         <div class="car-option" id="car-option">
                                             <div class="cars" id="cars"><img src="img/medium-pickup.png" loading="lazy"
                                                     alt="">
-                                                <p>medium-pickup</p>
+                                                <p></p>
                                             </div>
                                             <div class="cars" id="cars"><img src="img/midsize-suv.png" loading="lazy"
                                                     alt="">
