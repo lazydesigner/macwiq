@@ -38,11 +38,11 @@
                         </a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">
+                <a href="contact" class="nav-item nav-link">
                     <h5>Contact<h5>
                 </a>
-                <h4 class="mt-3 pe-lg-5 d-none d-lg-block  number1"><i
-                        class="fa fa-headphones   text-primary me-3"></i>+1 (833) 233-4447</h4>
+                <!-- <h4 class="mt-3 pe-lg-5 d-none d-lg-block  number1"><i
+                        class="fa fa-headphones   text-primary me-3"></i>+1 (833) 233-4447</h4> -->
             </div>
 
         </div>
