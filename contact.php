@@ -212,7 +212,7 @@ input {
 
 <div class="blogs container">
     <div class="innerblogs">
-        <div class="img"><img src="./img/about.jpg"></div>
+        <div class="img"><img src="./img/heavy-haulll.webp" class="w-100" alt=""></div>
         <div class="details"><h5>Heavy Haulers In Action</h5>
             <P>Heavy Haulers offer trustworthy and reliable transportation services for all varieties of freight including shipments of individual, commercial, and heavy machinery.</P>
         </div>
